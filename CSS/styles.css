@@ -1,0 +1,155 @@
+div{
+    font-family: 'Merriweather', serif;
+}
+a{
+    color: #11999E;
+}
+html{
+    margin: 0px;
+}
+body{
+    margin: 0px;
+    text-align: center;
+}
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #EAF6F6;
+}
+h1{
+    margin: 50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem ;
+    color: #66BFBF;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+
+}
+.bottomCloud{
+    position: absolute;
+    left: 260px;
+    top: 390px;
+}
+.topCloud{
+    position: absolute;
+    right: 280px;
+    top: 80px;
+}
+.baloon{
+    position: absolute;
+    top: 390px;
+    right: 280px;
+    animation-name: flow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes flow{
+    0%{
+        top: 390px;
+    }
+    50%{
+        top: 410px;
+    }
+    100%{
+        top: 390px;
+    }
+}
+.topCloud,.bottomCloud{
+    height: 60px;
+}
+.mountain{
+    height: 420px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.skill-img1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-img2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.profilepic{
+    margin-top: 60px;
+    width: 18%;
+}
+.profiledesc{
+    margin: 16px auto 0px auto;
+    width: 40%;
+}
+hr{
+    border-style: dotted none none none;
+    width: 6%;
+    height: 0px;
+    border-width: 10px;
+    border-color: rgb(199, 190, 190);
+    margin: 80px auto 80px auto;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+.wannachat{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.contactdesc{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bottom-container{
+    margin-top: 80px;
+    background-color: #66BFBF;
+    padding: 50px;
+}
+.footer-link{
+    padding: 10px;
+    text-decoration: none;
+    color: #11999E;
+    
+}
+.copyright{
+    margin-top: 35px;    
+    margin-bottom: 0px;
+    color: #EAF6F6;
+    font-size: 12px;
+}
